@@ -1,0 +1,74 @@
+/*Cascading Style Sheets*/
+
+/*id for one unique use*/
+#title {
+    border: 3px inset crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+}
+
+body {
+
+    background-image:url("Images/goodLooking.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    position: center;
+    top: 0;
+    left: 0;
+    
+}
+
+/*class for multiple uses*/
+p.education {
+
+    color: brown;
+    font-family: fantasy;
+    font-size: 150%;
+    border: 3px inset crimson;
+
+} 
+
+a:link {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: pink;
+    background-color: transparent;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+}
+
+ul {
+    align-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}

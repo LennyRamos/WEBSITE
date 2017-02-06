@@ -1,0 +1,20 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    
+    /*  This is what was previously written before my code 2/3/2017
+    "version": "0.1.0",
+    "command": "tsc",
+    "isShellCommand": true,
+    "args": ["-p", "."],
+    "showOutput": "silent",
+    "problemMatcher": "$tsc"
+    */
+    
+    "version": "0.1.0",
+    "command": "explorer",
+    "windows":{
+        "command": "explorer.exe"
+    },
+    "args":["MainPage.html"]
+}
