@@ -6,7 +6,12 @@
 
 }
 
-.jumbotron{
-    background-image: url("/Images/background.jpg");
+.jumbotron {
+    background-image:url("images/Background.jpg");
+    /*background-repeat:no-repeat;*/
+    color: white;
     backgound-size: cover;
+    padding:310px 0px 125px 0px;
+    margin-top: -25px;
+    margin-bottom: 80px;
 }
