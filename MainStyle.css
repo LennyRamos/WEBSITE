@@ -1,5 +1,10 @@
 /*Cascading Style Sheets*/
 
+html, body{
+    height: 100% !important;
+    padding-bottom: 10px;
+}
+
 .navbar-text > a {
     color: inherit;
     text-decoration: none;
@@ -12,6 +17,6 @@
     color: white;
     backgound-size: cover;
     padding:310px 0px 125px 0px;
-    margin-top: -25px;
+    margin-top: 25px;
     margin-bottom: 80px;
 }
