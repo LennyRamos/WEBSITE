@@ -5,3 +5,8 @@
     text-decoration: none;
 
 }
+
+.jumbotron{
+    background-image: url("/Images/background.jpg");
+    backgound-size: cover;
+}
