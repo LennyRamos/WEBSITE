@@ -6,17 +6,26 @@ html, body{
 }
 
 .navbar-text > a {
-    color: inherit;
+    color:inherit;
     text-decoration: none;
 
+}
+.navbar-fix-bottom{
+    background: inherit;
+    border: none;
 }
 
 .jumbotron {
     background-image:url("images/Background.jpg");
-    /*background-repeat:no-repeat;*/
     color: white;
     backgound-size: cover;
     padding:310px 0px 125px 0px;
     margin-top: 25px;
     margin-bottom: 80px;
 }
+
+.footer{
+    width:100%;
+    background: #333;
+}
+
