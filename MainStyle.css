@@ -3,6 +3,7 @@
 html, body{
     height: 100% !important;
     padding-top: 12px;
+    background: lightgrey;
     
 }
 
@@ -11,10 +12,14 @@ html, body{
     text-decoration: none;
 
 }
+.navbar{
+    background: #333; 
+}
 .container {
     width: 100%;
         
 }
+
 .container-fluid{
    
 }
@@ -32,12 +37,45 @@ html, body{
     background-size: cover;
     padding:310px 0px 125px 0px;
     margin-top: 25px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 
-.footer{
-    
+.footer {
+
     background: #333;
+
+}
+
+h1 {
+    color:black;
+    font-size: 40px;
     
 }
 
+p{
+    color: grey;
+    font-size: 20px;
+    font-family: Sans-serif;
+}
+
+.button{
+    text-align: center;
+}
+
+.col-md-4{
+    background: white;
+    text-align:center;
+    background-image:url("images/Resume.jpg");
+    padding-bottom: 25px;
+    
+}
+
+.btn-default{
+    background:black;
+    color:white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding: 10px 20px 10px 20px;
+    border-width: 2.5px;
+    border-color: white;    
+    
+}
