@@ -2,32 +2,42 @@
 
 html, body{
     height: 100% !important;
+    padding-top: 12px;
+    
 }
 
-.navbar-text > a {
+.navbar-text > a { 
     color:inherit;
     text-decoration: none;
 
 }
 .container {
-
+    width: 100%;
+        
+}
+.container-fluid{
+   
 }
 .navbar-fix-bottom{
     background: inherit;
-    border: none;
+    margin: 0px;
 }
 
 .jumbotron {
     background-image:url("images/Background.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
     color: white;
-    backgound-size: cover;
+    background-size: cover;
     padding:310px 0px 125px 0px;
     margin-top: 25px;
     margin-bottom: 80px;
 }
 
 .footer{
-    width:100%;
+    
     background: #333;
+    
 }
 
