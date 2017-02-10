@@ -3,7 +3,7 @@
 html, body{
     height: 100% !important;
     padding-top: 12px;
-    background: lightgrey;
+    background:white;
     
 }
 
@@ -50,6 +50,10 @@ h1 {
     color:black;
     font-size: 40px;
     
+}
+
+h3{
+    color: white;
 }
 
 p{
