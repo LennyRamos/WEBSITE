@@ -35,6 +35,12 @@ html, body{
     margin-bottom: 0px;
 }
 
+.center-block{
+    text-align: center;
+}
+.row{
+    padding-top: 20px;
+}
 p{
     color: grey;
     font-size: 20px;
