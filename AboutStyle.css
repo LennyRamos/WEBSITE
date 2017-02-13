@@ -13,6 +13,10 @@ html, body{
     background: #333; 
 }
 
+.navbar-fix-bottom{
+    margin-bottom: 0px;
+}
+
 .footer {
 
     background: #333;
@@ -45,4 +49,9 @@ p{
     color: grey;
     font-size: 20px;
     font-family: Sans-serif;
+}
+
+.caption{
+    color: white;
+    background: #333;
 }
