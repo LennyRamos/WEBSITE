@@ -20,12 +20,14 @@ html, body{
         
 }
 
-.container-fluid{
-   
-}
 .navbar-fix-bottom{
     background: inherit;
     margin: 0px;
+}
+
+#middle .row{
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .jumbotron {
